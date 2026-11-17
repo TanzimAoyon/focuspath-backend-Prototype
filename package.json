@@ -1,7 +1,7 @@
 {
   "name": "focuspath-backend",
   "version": "1.0.0",
-  "description": "Node.js + Express + Supabase REST API for Focus Path",
+  "description": "Node.js + Express + MySQL REST API for Focus Path",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,6 +9,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "@supabase/supabase-js": "^2.39.8"
+    "mysql2": "^3.11.0"
   }
 }

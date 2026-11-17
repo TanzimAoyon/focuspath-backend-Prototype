@@ -1,7 +1,7 @@
 {
   "name": "focuspath-backend",
   "version": "1.0.0",
-  "description": "REST API and SQLite Database for Focus Path",
+  "description": "REST API and MySQL Database for Focus Path",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,6 +9,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "sqlite3": "^5.1.7"
+    "mysql2": "^3.11.0"
   }
 }

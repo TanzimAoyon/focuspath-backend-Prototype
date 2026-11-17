@@ -10,7 +10,7 @@ app.use(express.json({ limit: '10mb' }));
 
 // 🛑 REPLACE THESE WITH THE DETAILS FROM YOUR FREESQLDATABASE EMAIL 🛑
 const pool = mysql.createPool({
-  host: process.env.DB_HOST || 'sql2.freesqldatabase.com', 
+  host: process.env.DB_HOST || 'sql12.freesqldatabase.com', 
   user: process.env.DB_USER || 'sql12840906',
   password: process.env.DB_PASSWORD || 'f1JZJdVkA9',
   database: process.env.DB_NAME || 'sql12840906',
